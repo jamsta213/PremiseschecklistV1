@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Premises Checklist</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h2 { color: #2c3e50; }
+        .question-set { display: none; margin-top: 15px; }
+        .question { margin-bottom: 15px; }
+        label { font-weight: bold; display: block; margin-bottom: 5px; }
+    </style>
+</head>
+<body>
+    <h2>Daily Premises Checklist</h2>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSfznnlSbZKrPC3sdk4gliQU1NDLRmP8frumwEOuBhTG6uXxgg/formResponse" method="POST" target="_self">
+
+        <!-- Frequency Question -->
+        <label>Frequency:</label><br>
+        <input type="radio" name="entry.448219892" value="Daily" id="daily" required> Daily<br>
+        <input type="radio" name="entry.448219892" value="Weekly - on Fridays" id="weekly"> Weekly - on Fridays<br>
+        <input type="radio" name="entry.448219892" value="Monthly - End of the month" id="monthly"> Monthly - End of the month<br><br>
+
+        <!-- Daily Time Selection -->
+        <div id="dailyTime" class="question-set">
+            <label>Time of Day:</label><br>
+            <input type="radio" name="entry.DAILY_TIME" value="Morning" id="morning" required> Morning<br>
+            <input type="radio" name="entry.DAILY_TIME" value="Afternoon" id="afternoon"> Afternoon<br>
+        </div>
+
+        <!-- Daily Morning Questions -->
+        <div id="morningQuestions" class="question-set">
+            <div class="question">
+                <label>Open school at 6.00am and unlock external doors/windows:</label>
+                <input type="radio" name="entry.MORNING_1" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_1" value="No"> No
+            </div>
+            <div class="question">
+                <label>Milk/fruit brought in and distributed:</label>
+                <input type="radio" name="entry.MORNING_2" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_2" value="No"> No
+            </div>
+            <div class="question">
+                <label>Stock toilets, classrooms, admin, with tissue/soap including air freshener:</label>
+                <input type="radio" name="entry.MORNING_3" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_3" value="No"> No
+            </div>
+            <div class="question">
+                <label>Check building and grounds for cleanliness/hazards:</label>
+                <input type="radio" name="entry.MORNING_4" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_4" value="No"> No
+            </div>
+            <div class="question">
+                <label>Check playground equipment for damage/vandalism:</label>
+                <input type="radio" name="entry.MORNING_5" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_5" value="No"> No
+            </div>
+            <div class="question">
+                <label>Fire doors are unlocked and clear:</label>
+                <input type="radio" name="entry.MORNING_6" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_6" value="No"> No
+            </div>
+            <div class="question">
+                <label>Front of school cleaned and cleared of rubbish/weeds before 8.30am:</label>
+                <input type="radio" name="entry.MORNING_7" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_7" value="No"> No
+            </div>
+            <div class="question">
+                <label>Gate duty 8.40-8.50am:</label>
+                <input type="radio" name="entry.MORNING_8" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_8" value="No"> No
+            </div>
+            <div class="question">
+                <label>All external gates locked:</label>
+                <input type="radio" name="entry.MORNING_9" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_9" value="No"> No
+            </div>
+            <div class="question">
+                <label>Lock premises cupboard:</label>
+                <input type="radio" name="entry.MORNING_10" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_10" value="No"> No
+            </div>
+            <div class="question">
+                <label>Check deliveries and move to correct location:</label>
+                <input type="radio" name="entry.MORNING_11" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_11" value="No"> No
+            </div>
+            <div class="question">
+                <label>Check Forest School for hazards/dead animals:</label>
+                <input type="radio" name="entry.MORNING_12" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_12" value="No"> No
+            </div>
+            <div class="question">
+                <label>Check Premises Jobs List:</label>
+                <input type="radio" name="entry.MORNING_13" value="Yes" required> Yes
+                <input type="radio" name="entry.MORNING_13" value="No"> No
+            </div>
+        </div>
+
+        <!-- Daily Afternoon Questions -->
+        <div id="afternoonQuestions" class="question-set">
+            <div class="question">
+                <label>Empty external bins, check playground for litter:</label>
+                <input type="radio" name="entry.AFTERNOON_1" value="Yes" required> Yes
+                <input type="radio" name="entry.AFTERNOON_1" value="No"> No
+            </div>
+            <div class="question">
+                <label>Non-essentials electricals turned off (heaters & fans etc):</label>
+                <input type="radio" name="entry.AFTERNOON_2" value="Yes" required> Yes
+                <input type="radio" name="entry.AFTERNOON_2" value="No"> No
+            </div>
+            <div class="question">
+                <label>Cleaners have completed all tasks before leaving:</label>
+                <input type="radio" name="entry.AFTERNOON_3" value="Yes" required> Yes
+                <input type="radio" name="entry.AFTERNOON_3" value="No"> No
+            </div>
+            <div class="question">
+                <label>Lock/secure external doors/windows:</label>
+                <input type="radio" name="entry.AFTERNOON_4" value="Yes" required> Yes
+                <input type="radio" name="entry.AFTERNOON_4" value="No"> No
+            </div>
+            <div class="question">
+                <label>Cleaning cupboard is locked and cleaning products are secure:</label>
+                <input type="radio" name="entry.AFTERNOON_5" value="Yes" required> Yes
+                <input type="radio" name="entry.AFTERNOON_5" value="No"> No
+            </div>
+            <div class="question">
+                <label>Premises office has been cleaned and desk wiped down:</label>
+                <input type="radio" name="entry.AFTERNOON_6" value="Yes" required> Yes
+                <input type="radio" name="entry.AFTERNOON_6" value="No"> No
+            </div>
+            <div class="question">
+                <label>Ensure nobody is left on site and set intruder alarm at 6pm Mon - Fri:</label>
+                <input type="radio" name="entry.AFTERNOON_7" value="Yes" required> Yes
+                <input type="radio" name="entry.AFTERNOON_7" value="No"> No
+            </div>
+            <div class="question">
+                <label>Jobs list checked and actioned:</label>
+                <input type="radio" name="entry.AFTERNOON_8" value="Yes" required> Yes
+                <input type="radio" name="entry.AFTERNOON_8" value="No"> No
+            </div>
+            <div class="question">
+                <label>Check emails and respond/action:</label>
+                <input type="radio" name="entry.AFTERNOON_9" value="Yes" required> Yes
+                <input type="radio" name="entry.AFTERNOON_9" value="No"> No
+            </div>
+            <div class="question">
+                <label>Gate duty 3.15pm - 3.30pm:</label>
+                <input type="radio" name="entry.AFTERNOON_10" value="Yes" required> Yes
+                <input type="radio" name="entry.AFTERNOON_10" value="No"> No
+            </div>
+        </div>
+
+        <input type="submit" value="Submit Checklist">
+    </form>
+
+    <script>
+        const dailyRadio = document.getElementById('daily');
+        const dailyTime = document.getElementById('dailyTime');
+        const morningRadio = document.getElementById('morning');
+        const afternoonRadio = document.getElementById('afternoon');
+        const morningSet = document.getElementById('morningQuestions');
+        const afternoonSet = document.getElementById('afternoonQuestions');
+
+        function updateDailyDisplay() {
+            dailyTime.style.display = dailyRadio.checked ? 'block' : 'none';
+            morningSet.style.display = 'none';
+            afternoonSet.style.display = 'none';
+        }
+
+        function updateTimeDisplay() {
+            morningSet.style.display = morningRadio.checked ? 'block' : 'none';
+            afternoonSet.style.display = afternoonRadio.checked ? 'block' : 'none';
+        }
+
+        dailyRadio.addEventListener('change', updateDailyDisplay);
+        morningRadio.addEventListener('change', updateTimeDisplay);
+        afternoonRadio.addEventListener('change', updateTimeDisplay);
+    </script>
+</body>
+</html>
